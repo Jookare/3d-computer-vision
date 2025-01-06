@@ -1,5 +1,5 @@
-% Computer Vision
-% Exercise 1 - ADD NAME HERE
+% Computer Vision - Exercise 1
+% FIRSTNAME LASTNAME
 %% Task 1. Image processing (1 point).
 clc
 close all
@@ -12,6 +12,7 @@ clearvars
 clc
 close all
 clearvars
+
 
 % World homogenous matrix
 T_W = ...;
@@ -50,7 +51,7 @@ wT_C = ...;
 
 % Find the transformation from world to robot frame
 
-% Find the frames in robot frame. (How to do matrix multiplication in python?)
+% Find the frames in robot frame.
 
 % Plot the coordinate systems in world frame using the 'plot_frame' function 
 
@@ -67,3 +68,9 @@ wT_C = ...;
 
 % Set title and add annotations
 
+
+
+function plot_frame(T)
+    % Function that plots the world frames
+    
+end

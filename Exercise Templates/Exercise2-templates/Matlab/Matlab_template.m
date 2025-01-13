@@ -5,19 +5,12 @@ clc
 close all
 clearvars
 
-% TODO: Define principle point, effective pixel size, focal length
+% TODO: Define principle point, effective pixel size, focal length, and point in camera frame
 
-% TODO: Define point in camera frame
+% TODO: Compute camera frame coordinates (x, y) and pixel coordinates
 
-% TODO: Compute camera frame coordinates (x, y) 
+% TODO: Print the result
 
-% TODO: Compute the pixel coordinates
-
-% Format the vector as a string
-cP_str = sprintf('[%d, %d, %d]', cP(1), cP(2), cP(3));
-
-% Print the message
-fprintf('Pixel coordinates of projection point: [%.0f, %.0f]\n', nx, ny);
 
 %% Task 2. Calibrated projection and weak perspective camera (2 points).
 clc

@@ -20,7 +20,7 @@ clearvars
 
 % Visualize the results for Tomasi-Kanade
 
-% ! ANSWER to the questions
+% ! ANSWER the questions
 
 %% Task 2. Scale invariant interest points (2 points).
 clc
@@ -37,7 +37,7 @@ clearvars
 % Plot the extremas on top of the image
 
 
-% Do same thing for the lena_bw_transformed.png and ANSWER to the questions
+% Do same thing for the lena_bw_transformed.png and ANSWER the questions
 
 
 

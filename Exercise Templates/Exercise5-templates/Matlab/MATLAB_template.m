@@ -24,6 +24,10 @@ end
 
 %% Task 2. RANSAC (2 points)
 
+% Option a)
+% Define f as inline function and plot using Matlab's fimplicit function
+
+% Option b)
 function visualize_fit(x, y, a, b, c, d)
     % Use this function to draw points and the fitted conical section
     %
@@ -35,7 +39,7 @@ function visualize_fit(x, y, a, b, c, d)
     %     c (array): c parameter
     %     d (array): d parameter
 
-    figure;
+    figure; hold on
     scatter(x, y, 1);
 
     xv = linspace(-100, 100, 400);

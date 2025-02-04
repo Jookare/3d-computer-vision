@@ -1,6 +1,8 @@
 # CV-Python-Basics
 
-### To create theHTML file export the notebook as `HTML` and add the following to reduce the width and center the text
+Contains exercise templates and Python tutorial for the course 3D Computer Vision.
+
+### To create the HTML file export the notebook as `HTML` and add the following to reduce the width and center the text
 
 ```
 .jp-Notebook {

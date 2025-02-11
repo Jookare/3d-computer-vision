@@ -1,5 +1,7 @@
 .ipynb_checkpoints/*
 *.asv
 *.pyc
+*.png
+*.jpg
 output.png
 Exercise Templates/Exercise6-templates/Python/Cottontail-Rabbits

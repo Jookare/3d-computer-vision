@@ -12,6 +12,8 @@ function plot_projection(points, connecting_indices)
     % TODO: define function to plot the cube
     % you can use connecting_indices for both 2D and 3D plotting, it still works
     
+
+    axis equal
 end
 
 % TODO: plot the 3D cube and the projection nicely side by side
@@ -98,13 +100,14 @@ end
 function plot_frame(T, name)
     % Function that plots the world frames
     l = 0.25;
-    quiver3(ax, T(1,4), T(2,4), T(3,4), T(1,1), T(2,1), T(3,1), l, 'r');
-    quiver3(ax, T(1,4), T(2,4), T(3,4), T(1,2), T(2,2), T(3,2), l, 'g');
-    quiver3(ax, T(1,4), T(2,4), T(3,4), T(1,3), T(2,3), T(3,3), l, 'b');
+    quiver3(T(1,4), T(2,4), T(3,4), T(1,1), T(2,1), T(3,1), l, 'r');
+    quiver3(T(1,4), T(2,4), T(3,4), T(1,2), T(2,2), T(3,2), l, 'g');
+    quiver3(T(1,4), T(2,4), T(3,4), T(1,3), T(2,3), T(3,3), l, 'b');
     
-    text(ax, T(1,4) + T(1,1)*l, T(2,4) + T(2,1)*l, T(3,4) + T(3,1)*l, [name 'X']);
-    text(ax, T(1,4) + T(1,2)*l, T(2,4) + T(2,2)*l, T(3,4) + T(3,2)*l, [name 'Y']);
-    text(ax, T(1,4) + T(1,3)*l, T(2,4) + T(2,3)*l, T(3,4) + T(3,3)*l, [name 'Z']);
+    text(T(1,4) + T(1,1)*l, T(2,4) + T(2,1)*l, T(3,4) + T(3,1)*l, [name 'X']);
+    text(T(1,4) + T(1,2)*l, T(2,4) + T(2,2)*l, T(3,4) + T(3,2)*l, [name 'Y']);
+    text(T(1,4) + T(1,3)*l, T(2,4) + T(2,3)*l, T(3,4) + T(3,3)*l, [name 'Z']);
+    axis equal
 end
 
 % TODO: plot the coordinate frame together with the cube

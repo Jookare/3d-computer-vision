@@ -24,10 +24,10 @@ end
 % TODO: Compute F from A
 
 
-% TODO: Compute F_dash from F. Make sure you know what np.linalg.svd returns
+% TODO: Compute F_dash from F. Make sure you know what Matlab's SVD returns
 
 
-% TODO Denormalize and test avlue using ninth point
+% TODO Denormalize and test value using ninth point
 
 
 %% Task 2
@@ -37,7 +37,7 @@ clearvars
 
 % TODO Use F to find left and right epipoles
 
-% TODO Plot the ninth point to the left image and right epipolar line to right
+% TODO Plot the ninth point to the left image and the right epipolar line to the right image
 % Find the line coefficients from F @ el and plot the line
 
 tiledlayout(1,2)

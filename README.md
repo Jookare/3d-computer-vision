@@ -1,4 +1,4 @@
-# CV-Python-Basics
+# 3d-computer-vision
 
 Contains exercise templates and Python tutorial for the course 3D Computer Vision.
 
